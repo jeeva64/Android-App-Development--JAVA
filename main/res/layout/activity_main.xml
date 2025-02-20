@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+    <EditText
+        android:id="@+id/num1"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Number"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/num2"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Second Number"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Result "
+        />
+    <Button
+        android:id="@+id/add"
+        android:onClick="add"
+        android:layout_width="match_parent"
+        android:text="Addition"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/sub"
+        android:onClick="sub"
+        android:layout_width="match_parent"
+        android:text="Subration"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/mul"
+        android:onClick="mul"
+        android:layout_width="match_parent"
+        android:text="Multiplication"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/div"
+        android:onClick="div"
+        android:layout_width="match_parent"
+        android:text="Division"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
